@@ -1,0 +1,29 @@
+# Your details. Everything on the page outside the bio and papers comes from here.
+title: Jamie Reason
+description: PhD student in Statistics at the University of Oxford. Probabilistic machine learning for sequential decision-making.
+url: https://jreaso.github.io
+
+author:
+  name: Jamie Reason              # also used to pick out your name (darker text) in paper author lists
+  role: PhD student, Stats and ML, University of Oxford
+  email: jamie.reason@reuben.ox.ac.uk   # leave blank to hide
+  avatar: /assets/avatar.jpg
+  cv: /assets/cv.pdf              # "CV" link (top right) only appears once this file exists
+
+# Icon links under your role, shown in this order. `icon` is a file in _includes/icons/.
+# Leave a url blank to hide that icon.
+links:
+  # - name: Google Scholar
+  #   icon: scholar
+  #   url: SCHOLAR_URL
+  - name: GitHub
+    icon: github
+    url: https://github.com/jreaso
+  - name: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/jamie-reason/
+
+# One file per paper in _papers/. Set output: true later to give each paper its own page.
+collections:
+  papers:
+    output: false
